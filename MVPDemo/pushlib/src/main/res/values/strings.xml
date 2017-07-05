@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Pushlib</string>
+
+    <!-- 友盟 推送-->
+    <string name="umeng_appkey">58ef1bb6c62dca429f0017dc</string>
+    <string name="umeng_message_secret">a233ddf7f198d573e10da05048adb4da</string>
+    <string name="umeng_channel">z6dj83ux7ucxlfnrmqdmf0om4qsxty5p</string>
+</resources>
