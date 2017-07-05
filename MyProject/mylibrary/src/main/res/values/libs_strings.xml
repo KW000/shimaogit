@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MyLibrary</string>
+
+    <!-- 下拉刷新 -->
+    <string name="pull_to_refresh_pull_label">下拉以刷新</string>
+    <string name="pull_to_refresh_release_label">松开以刷新</string>
+    <string name="pull_to_refresh_release_complete">刷新完成</string>
+    <string name="pull_to_refresh_refreshing_label">正在加载&#8230;</string>
+    
+    <!-- 上拉刷新 -->
+    <string name="pull_to_refresh_from_bottom_pull_label">@string/pull_to_refresh_pull_label</string>
+    <string name="pull_to_refresh_from_bottom_release_label">@string/pull_to_refresh_release_label</string>
+    <string name="pull_to_refresh_from_bottom_refreshing_label">@string/pull_to_refresh_refreshing_label</string>
+
+
+    <string name="xlistview_header_hint_normal">下拉刷新</string>
+    <string name="xlistview_header_hint_ready">松开刷新数据</string>
+    <string name="xlistview_header_hint_loading">正在加载...</string>
+    <string name="xlistview_header_last_time">上次更新时间：</string>
+    <string name="xlistview_footer_hint_normal">查看更多</string>
+    <string name="xlistview_footer_hint_ready">松开载入更多</string>
+
+
+    <string name="sans_serif" translatable="false">sans-serif</string>
+
+</resources>

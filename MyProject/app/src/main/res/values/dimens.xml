@@ -1,0 +1,21 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+
+    <dimen name="LayoutMargin">8dp</dimen>
+    <dimen name="MinHeight">48dp</dimen>
+    <dimen name="DividerHeight">1.5px</dimen>
+    <dimen name="AppLineWH">1.5px</dimen>
+
+    <dimen name="SmallMargin">4dp</dimen>
+    <dimen name="gesture_margin">20dp</dimen>
+    <dimen name="borderwidth">2dp</dimen>
+    <dimen name="borderround">3dp</dimen>
+    <dimen name="passwordwidth">5dp</dimen>
+    <dimen name="passwordround">3dp</dimen>
+    <dimen name="calendar_margin">25dp</dimen>
+    <dimen name="activity_center_margin">15dp</dimen>
+    <dimen name="dialog_notice_margin">30dp</dimen>
+</resources>

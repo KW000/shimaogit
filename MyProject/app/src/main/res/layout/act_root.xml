@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.views.FitRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+    <FrameLayout
+        android:id="@+id/fl_title_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/app_color"
+        android:gravity="center_vertical"
+        android:minHeight="48dp" >
+
+        <Button
+            android:id="@+id/btn_left"
+            style="@style/TextMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="left|center_vertical"
+            android:background="@color/transparent"
+            android:drawableLeft="@drawable/ic_action_back"
+            android:gravity="center"
+            android:minWidth="@dimen/MinHeight"
+            android:onClick="onLeftClick"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:textColor="@color/text_white_color"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/tv_title_text"
+            style="@android:style/TextAppearance.Large.Inverse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:clickable="true"
+            android:drawablePadding="5dp"
+            android:ellipsize="marquee"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:gravity="center"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:onClick="onCenterClick"
+            android:scrollHorizontally="true"
+            android:singleLine="true"
+            android:text="@string/app_name"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/btn_right"
+            style="@style/TextMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|center_vertical"
+            android:background="@null"
+            android:minWidth="@dimen/MinHeight"
+            android:onClick="onRightClick"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:textColor="@color/text_white_color"
+            android:visibility="invisible" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_gravity="bottom"
+            android:background="@drawable/drawer_shadow_hor" />
+    </FrameLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_root_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/fl_title_bar" >
+    </RelativeLayout>
+
+</com.android.views.FitRelativeLayout>

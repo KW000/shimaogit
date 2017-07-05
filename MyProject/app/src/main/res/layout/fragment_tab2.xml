@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/rela"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="@color/green">
+
+        <RadioGroup
+            android:id="@+id/group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="8dp"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/tab2_rb1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="推荐"
+                android:button="@null"
+                android:gravity="center"
+                android:checked="true"
+                android:textColor="@color/radio_login_text" />
+
+            <RadioButton
+                android:id="@+id/tab2_rb2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="音乐"
+                android:gravity="center"
+                android:button="@null"
+                android:textColor="@color/radio_login_text" />
+
+            <RadioButton
+                android:id="@+id/tab2_rb3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="搞笑"
+                android:gravity="center"
+                android:button="@null"
+                android:textColor="@color/radio_login_text" />
+
+            <RadioButton
+                android:id="@+id/tab2_rb4"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="社会"
+                android:gravity="center"
+                android:button="@null"
+                android:textColor="@color/radio_login_text" />
+
+            <RadioButton
+                android:id="@+id/tab2_rb5"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="小品"
+                android:gravity="center"
+                android:button="@null"
+                android:textColor="@color/radio_login_text" />
+
+            <RadioButton
+                android:id="@+id/tab2_rb6"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="生活"
+                android:gravity="center"
+                android:button="@null"
+                android:textColor="@color/radio_login_text" />
+        </RadioGroup>
+
+        <RelativeLayout
+            android:id="@+id/relab"
+            android:layout_width="35dp"
+            android:layout_height="match_parent"
+            android:background="@color/green"
+            android:layout_alignParentBottom="true"
+            android:paddingBottom="8dp"
+            android:layout_marginRight="5dp"
+            android:layout_alignParentRight="true">
+
+            <ImageView
+                android:layout_width="22dp"
+                android:layout_height="22dp"
+                android:src="@drawable/ic_gourd_search"
+                android:layout_centerInParent="true"
+                android:scaleType="fitCenter"/>
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/rela"
+        />
+</RelativeLayout>
